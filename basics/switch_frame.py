@@ -12,9 +12,9 @@ class SwitchFrame:
         driver.maximize_window()
         driver.get(base_url)
 
-        driver.switch_to.frame("courses-iframe")
-        # driver.switch_to.frame("iframe-name")
-        # driver.switch_to.frame(0)
+        driver.switch_to.frame("courses-iframe")    #id
+        # driver.switch_to.frame("iframe-name")     #name
+        # driver.switch_to.frame(0)                 #number
         time.sleep(2)
         driver.find_element_by_id("search-courses").send_keys("python")
 

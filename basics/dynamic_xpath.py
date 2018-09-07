@@ -28,4 +28,3 @@ class DynamicXpath:
 
 obj = DynamicXpath()
 obj.dynamic()
-
